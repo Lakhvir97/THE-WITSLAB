@@ -1,0 +1,1736 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.Container {
+  display: flex;
+  padding: 10px;
+}
+.all2 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -80px;
+  margin-left: 80px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+  position: absolute;
+  display: none;
+  z-index: 1;
+  background-color: white;
+}
+.Witslablogo {
+  margin-left: 80px;
+}
+.Witslablogo:hover {
+  cursor: pointer;
+}
+
+.dropdown {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  margin-left: 320px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.display {
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  display: none;
+  top: 80px;
+
+  box-shadow: 4px 5px 5px 4px lightgray;
+  width: 180px;
+}
+
+.dropdown:hover .display {
+  display: inline-block;
+}
+.content {
+  padding: 15px 16px;
+  font-size: 15px;
+}
+.content:hover {
+  background-color: lightgrey;
+}
+
+.Career {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  margin-left: 80px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+}
+.Career:hover {
+  color: #3742bb;
+}
+
+.Company {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  margin-left: 70px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+}
+.Company:hover {
+  color: #3742bb;
+}
+.Button {
+  margin-top: 40px;
+  margin-left: 50px;
+  background-color: #2a43a6;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Button:hover {
+  background-color: rgb(41, 41, 119);
+}
+
+#insight:hover {
+  color: black;
+}
+.Services1 {
+  background-color: white;
+  position: absolute;
+  display: none;
+  top: 80px;
+  box-shadow: 4px 5px 5px 4px lightgray;
+  width: 180px;
+}
+.Services {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  margin-left: 80px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.Custom {
+  padding: 15px 16px;
+  font-size: 15px;
+}
+.Custom:hover {
+  background-color: lightgrey;
+}
+
+.Services:hover .Services1 {
+  display: block;
+}
+#Services:hover {
+  color: black;
+}
+.Essence {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+  margin-left: 80px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.Essence1 {
+  background-color: white;
+  position: absolute;
+  display: none;
+  top: 80px;
+  box-shadow: 4px 5px 5px 4px lightgray;
+  width: 180px;
+}
+#Essence:hover {
+  color: black;
+}
+.Agile {
+  padding: 15px 16px;
+  font-size: 15px;
+}
+.Agile:hover {
+  background-color: lightgrey;
+}
+.Essence:hover .Essence1 {
+  display: block;
+}
+
+/* responsive */
+
+.containerresp {
+  display: none;
+  position: relative;
+}
+.dropdownresp {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  margin-left: 240px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+.displayresp {
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  display: none;
+  top: 60px;
+  z-index: 1;
+  box-shadow: 4px 5px 5px 4px lightgray;
+  width: 100px;
+}
+#insightresp {
+  padding: 0vw;
+}
+#insightresp:hover {
+  color: black;
+}
+
+.dropdownresp:hover .displayresp {
+  display: inline-block;
+}
+.contentresp {
+  padding: 15px 16px;
+  font-size: 15px;
+}
+.contentresp:hover {
+  background-color: lightgrey;
+}
+
+.Services1resp {
+  background-color: white;
+  position: absolute;
+  display: none;
+  top: 40px;
+  z-index: 1;
+  box-shadow: 4px 5px 5px 4px lightgray;
+  width: 180px;
+}
+#Servicesresp {
+  padding: 1vw;
+}
+.Servicesresp {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 240px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+.Customresp {
+  padding: 15px 16px;
+  font-size: 15px;
+}
+.Customresp:hover {
+  background-color: lightgrey;
+}
+
+.Servicesresp:hover .Services1resp {
+  display: block;
+}
+#Servicesresp:hover {
+  color: black;
+}
+
+.Essenceresp {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin-left: 240px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+.Essence1resp {
+  background-color: white;
+  position: absolute;
+  display: none;
+  top: 40px;
+  box-shadow: 4px 5px 5px 4px lightgray;
+  width: 180px;
+}
+#Essenceresp {
+  padding: 1vw;
+}
+#Essenceresp:hover {
+  color: black;
+}
+.Agileresp {
+  padding: 15px 16px;
+  font-size: 15px;
+}
+.Agileresp:hover {
+  background-color: lightgrey;
+}
+.Essenceresp:hover .Essence1resp {
+  display: block;
+}
+
+.Careerresp {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  margin-left: 245px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+}
+#Careerresp {
+  padding: 1vw;
+}
+.Careerresp:hover {
+  color: #3742bb;
+}
+
+.Companyresp {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  margin-left: 245px;
+  color: rgb(109, 107, 107);
+  cursor: pointer;
+}
+#Companyresp {
+  padding: 1vw;
+}
+.Companyresp:hover {
+  color: #3742bb;
+}
+.Buttonresp {
+  margin-top: 30px;
+  margin-left: 245px;
+  background-color: #2a43a6;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  height: 40px;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Buttonresp:hover {
+  background-color: rgb(41, 41, 119);
+}
+
+.imglogo {
+  display: none;
+  height: 10vh;
+  position: absolute;
+  top: -8vh;
+  left: 15vw;
+}
+
+/* responsive */
+.Form {
+  display: grid;
+  grid-template-columns: auto 50%;
+  background-color: #ebedee;
+  margin-top: 60px;
+  height: 480px;
+}
+
+#Technology {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 120px;
+  margin-top: 40px;
+  color: #272727;
+}
+#Software {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 120px;
+  margin-top: 5px;
+  color: #272727;
+}
+#Market {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 120px;
+  margin-top: 5px;
+  color: #272727;
+}
+#With {
+  font-weight: bold;
+  font: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 120px;
+  margin-top: 10px;
+  color: #272727;
+}
+#With {
+  font-weight: bold;
+  font: 16px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.9;
+}
+#The {
+  font-weight: bold;
+  font: 16px;
+  margin-left: 120px;
+  margin-top: 10px;
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.9;
+}
+#Blueprint {
+  font-weight: bold;
+  font: 16px;
+  margin-left: 120px;
+  margin-top: 10px;
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.9;
+}
+#Product {
+  font-weight: bold;
+  font: 16px;
+  margin-left: 120px;
+  margin-top: 10px;
+  color: #353535;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.9;
+}
+#Button {
+  margin-left: 120px;
+  margin-top: 30px;
+  height: 55px;
+  width: 189px;
+  border-radius: 28px;
+  background-color: #2d4195;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+}
+#Button:hover {
+  background-color: rgb(41, 41, 119);
+  cursor: pointer;
+}
+.image {
+  display: inline;
+}
+
+#img1 {
+  float: right;
+  height: 480px;
+}
+#Innovative {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+.Innvative1 {
+  text-align: center;
+  margin-top: 120px;
+}
+.Choose {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Custom3 {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  margin-top: 80px;
+}
+.App {
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin-left: 100px;
+}
+.App:hover {
+  cursor: pointer;
+}
+.App1 {
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.Phone {
+  margin-left: 20px;
+}
+
+.CustomApp {
+  color: #2d4195;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.Development {
+  color: #2d4195;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.create {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.application {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.Digital {
+  color: #2d4195;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  padding-left: 25px;
+}
+.laptop {
+  padding-left: 25px;
+}
+.App1 {
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.App1:hover {
+  cursor: pointer;
+}
+.drive {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding-left: 25px;
+}
+.technology {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  padding-left: 25px;
+}
+.Enterprise {
+  color: #2d4195;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.Hand {
+  margin-left: 20px;
+}
+.Disk {
+  border-right: 1px solid lightgrey;
+
+  margin-left: 100px;
+  padding-left: 20px;
+}
+.Disk:hover {
+  cursor: pointer;
+}
+.Experience {
+  margin-top: 40px;
+}
+.Experience1 {
+  color: #2d4195;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  /* margin-left: 20px; */
+}
+.Mobile1 {
+  margin-bottom: 20px;
+}
+#Design {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+#Also {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+.craft {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.Mobility {
+  border-bottom: 1px solid lightgrey;
+  width: 390px;
+}
+.Mobility:hover {
+  cursor: pointer;
+}
+.People {
+  border-right: 1px solid lightgrey;
+}
+.People:hover {
+  cursor: pointer;
+}
+.Peoples {
+  padding-left: 25px;
+  padding-top: 40px;
+}
+.Staff {
+  color: #2d4195;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.advise {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.Quality:hover {
+  cursor: pointer;
+}
+.watching {
+  padding-left: 25px;
+  padding-top: 40px;
+}
+.Assurance {
+  color: #2d4195;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.Launch {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 20px;
+}
+.Witslab1 {
+  text-align: center;
+  margin-top: 120px;
+}
+#Witslab {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  text-align: center;
+}
+.Have {
+  display: flex;
+
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.idea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 600px;
+  padding: 30px;
+}
+.firsthave {
+  width: 230px;
+  color: #ffffff;
+  height: 500px;
+  border: none;
+  margin-left: 10px;
+  background: linear-gradient(180deg, #2f3a77, #272b44);
+  border-radius: 10px;
+  padding-top: 30px;
+  text-align: center;
+  transition-delay: 0.2s;
+  transition: 0.2s;
+}
+.firsthave:hover {
+  width: 750px;
+}
+.Second {
+  transition-delay: 0.2s;
+  transition: 0.2s;
+  color: #ffffff;
+  height: 500px;
+  width: 230px;
+  border: none;
+  margin-left: 10px;
+  background: linear-gradient(180deg, #3ba4e2, #1d75dc);
+  border-radius: 10px;
+  padding-top: 30px;
+  text-align: center;
+}
+.Second:hover {
+  width: 750px;
+}
+.three {
+  transition-delay: 0.2s;
+  transition: 0.2s;
+  width: 230px;
+  color: #ffffff;
+  height: 500px;
+  border: none;
+  margin-left: 10px;
+  background: linear-gradient(180deg, #f1dc63, #e0ba34);
+  border-radius: 10px;
+  padding-top: 30px;
+  text-align: center;
+}
+.three:hover {
+  width: 750px;
+}
+.link {
+  color: #0c5caa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 35px;
+  text-decoration: underline;
+  opacity: 0.5;
+}
+.Why {
+  display: flex;
+}
+#Why {
+  color: #b4b6bd;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 21px;
+  margin-left: 220px;
+  margin-top: 150px;
+}
+.as {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-left: 220px;
+  font-size: 25px;
+}
+.Blockchain {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  font-size: 45px;
+  margin-left: 220px;
+}
+.Realword {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 50px;
+  font-size: 45px;
+  margin-left: 220px;
+}
+.Everything {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 220px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: 30px;
+}
+.exertise {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 220px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.transform1 {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 220px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.Youridea {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 220px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.preparing {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 220px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.Checkbutton {
+  height: 50px;
+  width: 262px;
+  border-radius: 25.5px;
+  background-color: #f4cf4e;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  line-height: 25px;
+  outline: none;
+  border: none;
+  margin-left: 220px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.Checkbutton:hover {
+  background-color: rgb(230, 189, 86);
+}
+#Disruptive {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 150px;
+  margin-left: 170px;
+}
+#Futuristic {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 170px;
+}
+#Leverage {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 170px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-top: 20px;
+}
+#Your {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 170px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+#Consulting {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 40px;
+  margin-left: 170px;
+}
+#Digital {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-left: 170px;
+}
+#Rely {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 170px;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+#Head {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 170px;
+  margin-top: px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+#Solution {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 40px;
+  margin-left: 170px;
+}
+#Big {
+  color: #272727;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: px;
+  margin-left: 170px;
+}
+#Power {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 170px;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+#bussiness {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 170px;
+  margin-top: px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+.Insightflex {
+  display: flex;
+}
+.Insight0 {
+  color: #b4b6bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14spx;
+  letter-spacing: 3px;
+  line-height: 21px;
+  margin-left: 170px;
+  margin-top: 120px;
+}
+.Artificial {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 170px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+.Artificial:hover {
+  color: #0a58ca;
+}
+.ARVR {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 170px;
+  cursor: pointer;
+}
+.ARVR:hover {
+  color: #0a58ca;
+}
+.BlockchainD {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 170px;
+  cursor: pointer;
+}
+.BlockchainD:hover {
+  color: #0a58ca;
+}
+.Machine1 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 170px;
+  cursor: pointer;
+}
+.Machine1:hover {
+  color: #0a58ca;
+}
+.Services0 {
+  color: #b4b6bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 21px;
+  margin-left: 80px;
+  margin-top: 120px;
+}
+.Development0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.App0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+.App0:hover {
+  color: #0a58ca;
+}
+.Digitla0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.Digitla0:hover {
+  color: #0a58ca;
+}
+.Enterprise0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.Enterprise0:hover {
+  color: #0a58ca;
+}
+.Experience0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.Experience0:hover {
+  color: #0a58ca;
+}
+.Augmentation0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.Augmentation0:hover {
+  color: #0a58ca;
+}
+.Quality0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.Quality0:hover {
+  color: #0a58ca;
+}
+.Technology0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.Technology0:hover {
+  color: #0a58ca;
+}
+.Essence0 {
+  color: #b4b6bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 21px;
+  margin-left: 80px;
+  margin-top: 120px;
+}
+.Agile0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  margin-top: 14px;
+  cursor: pointer;
+}
+.Agile0:hover {
+  color: #0a58ca;
+}
+.Resources0 {
+  color: #b4b6bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 21px;
+  margin-left: 80px;
+  margin-top: 120px;
+}
+.Careers0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  margin-top: 14px;
+  cursor: pointer;
+}
+.Careers0:hover {
+  color: #0a58ca;
+}
+.Company0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.Company0:hover {
+  color: #0a58ca;
+}
+.Get0 {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.Get0:hover {
+  color: #0a58ca;
+}
+.Follow0 {
+  color: #b4b6bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 21px;
+  margin-left: 80px;
+  margin-top: 120px;
+}
+.Linked {
+  vertical-align: middle;
+  margin-left: 80px;
+  margin-top: 14px;
+  cursor: pointer;
+}
+.Subscribe0 {
+  color: #b4b6bd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 21px;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.Email {
+  width: 300px;
+  height: 62px;
+  border-radius: 5px 2px 2px 5px;
+  border: 1px solid lightgrey;
+  margin-top: 36px;
+  margin-left: 80px;
+  padding-left: 20px;
+  outline: none;
+}
+.Email::placeholder {
+  opacity: 0.3;
+  font-size: 14px;
+}
+.Submit0 {
+  height: 63px;
+  width: 62px;
+  border-radius: 1px 5px 5px 1px;
+  background-color: #f4cf4e;
+  color: #fff;
+  border: none;
+  margin-left: -5px;
+  opacity: 0.5;
+}
+.Footer {
+  display: flex;
+  margin-left: 10px;
+  background-color: #f3f3f3;
+  max-width: 1500px;
+  width: 100%;
+  height: 120px;
+  margin-top: 100px;
+}
+.us {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 13px;
+  margin-left: 250px;
+}
+.Ind {
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 250px;
+}
+.tel {
+  color: #0a58ca;
+  opacity: 1;
+  text-decoration: none;
+  margin-left: 60px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.telefon {
+  margin-top: 20px;
+}
+.wil {
+  color: #3f3f3f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 00;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+.Term0 {
+  opacity: 0.8;
+  color: #4d4d4d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+  cursor: pointer;
+  margin-left: 450px;
+}
+.Term0:hover {
+  color: black;
+}
+hr {
+  margin-left: 130px;
+  margin-right: 40px;
+  margin-top: 100px;
+  opacity: 0.39;
+}
+
+@media only screen and (max-width: 1480px) {
+  .dropdown {
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .dropdown {
+    margin-left: 30px;
+  }
+  .Services {
+    margin-left: 30px;
+  }
+  .Essence {
+    margin-left: 30px;
+  }
+
+  .Career {
+    margin-left: 30px;
+  }
+
+  .Company {
+    margin-left: 30px;
+  }
+
+  .Button {
+    margin-left: 30px;
+  }
+
+  .Custom3 {
+    display: grid;
+    grid-template-columns: 450px 400px 200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .Form {
+    display: grid;
+    grid-template-columns: auto;
+    height: 500px;
+    max-width: auto;
+  }
+  #Technology {
+    margin-left: 100px;
+  }
+  #Software {
+    margin-left: 100px;
+  }
+  #Market {
+    margin-left: 100px;
+  }
+
+  #With {
+    margin-left: 80px;
+  }
+  #The {
+    margin-left: 80px;
+  }
+  #Blueprint {
+    margin-left: 80px;
+  }
+  #Product {
+    margin-left: 80px;
+  }
+  #Button {
+    margin-left: 80px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .Custom3 {
+    display: grid;
+    grid-template-columns: 350px 300px 350px;
+    margin-left: 80px;
+  }
+  .App {
+    border-right: none;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 80px;
+  }
+  .App1 {
+    border-right: none;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 80px;
+  }
+  .Disk {
+    border-right: none;
+    border-bottom: 1px solid lightgrey;
+    right: 20px;
+    margin-left: 80px;
+  }
+  .People {
+    border-right: none;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 80px;
+  }
+  .Mobility {
+    width: 430px;
+    border-right: none;
+    border-bottom: 1px solid lightgrey;
+    margin-left: 80px;
+  }
+  .Quality {
+    border-bottom: 1px solid lightgrey;
+    margin-left: 80px;
+  }
+  .laptop {
+    margin-top: 40px;
+    margin-left: 5px;
+  }
+  .Hand {
+    margin-top: 40px;
+    margin-left: 15px;
+  }
+  .dropdown {
+    display: none;
+  }
+
+  .Services {
+    display: none;
+  }
+
+  .Essence {
+    display: none;
+  }
+  .Career {
+    display: none;
+  }
+
+  .Company {
+    display: none;
+  }
+  .Button {
+    display: none;
+  }
+  .imglogo {
+    display: inline-block;
+    margin-left: 50vw;
+    margin-top: 5vh;
+  }
+  .all2 {
+    display: inline-block;
+  }
+
+  .all2:hover .containerresp {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Witslablogo {
+    margin-left: 80px;
+  }
+  .Custom3 {
+    display: grid;
+    grid-template-columns: 450px;
+  }
+  .App {
+    margin-left: 10px;
+  }
+  .App1 {
+    margin-left: 10px;
+  }
+  .Mobility {
+    margin-left: 10px;
+  }
+  .Disk {
+    margin-left: 10px;
+  }
+  .People {
+    margin-left: 10px;
+  }
+  .Quality {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Form {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .Have {
+    display: block;
+    margin-left: 100px;
+  }
+  .firsthave {
+    width: 300px;
+    height: 500px;
+  }
+  .Second {
+    height: 500px;
+    width: 300px;
+  }
+  .three {
+    width: 300px;
+    height: 500px;
+  }
+  .Why {
+    display: block;
+  }
+  #Why {
+    margin-left: 100px;
+  }
+  .as {
+    margin-left: 100px;
+  }
+  .Blockchain {
+    margin-left: 100px;
+  }
+  .Realword {
+    margin-left: 100px;
+  }
+  .Everything {
+    margin-left: 100px;
+  }
+  .exertise {
+    margin-left: 100px;
+  }
+  .transform1 {
+    margin-left: 100px;
+  }
+  .Youridea {
+    margin-left: 100px;
+  }
+  .preparing {
+    margin-left: 100px;
+  }
+  .Checkbutton {
+    margin-left: 100px;
+  }
+  #Disruptive {
+    margin-left: 100px;
+  }
+  #Futuristic {
+    margin-left: 100px;
+  }
+  #Leverage {
+    margin-left: 100px;
+  }
+  #Your {
+    margin-left: 100px;
+  }
+  #Consulting {
+    margin-left: 100px;
+  }
+  #Digital {
+    margin-left: 100px;
+  }
+  #Rely {
+    margin-left: 100px;
+  }
+  #Head {
+    margin-left: 100px;
+  }
+  #Solution {
+    margin-left: 100px;
+  }
+  #Big {
+    margin-left: 100px;
+  }
+  #Power {
+    margin-left: 100px;
+  }
+  #bussiness {
+    margin-left: 100px;
+  }
+  hr {
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    opacity: 0.39;
+  }
+  .Insightflex {
+    display: block;
+  }
+  .Insight0 {
+    margin-left: 250px;
+  }
+  .Artificial {
+    margin-left: 220px;
+  }
+  .ARVR {
+    margin-left: 260px;
+  }
+  .BlockchainD {
+    margin-left: 220px;
+  }
+  .Machine1 {
+    margin-left: 240px;
+  }
+  .Services0 {
+    text-align: center;
+  }
+  .App0 {
+    text-align: center;
+  }
+  .Digitla0 {
+    text-align: center;
+  }
+  .Enterprise0 {
+    text-align: center;
+  }
+  .Experience0 {
+    text-align: center;
+  }
+  .Augmentation0 {
+    text-align: center;
+  }
+  .Quality0 {
+    text-align: center;
+  }
+  .Technology0 {
+    text-align: center;
+  }
+  .Essence0 {
+    text-align: center;
+  }
+  .Agile0 {
+    text-align: center;
+  }
+  .Resources0 {
+    text-align: center;
+  }
+  .Careers0 {
+    text-align: center;
+  }
+  .Company0 {
+    text-align: center;
+  }
+  .Get0 {
+    text-align: center;
+  }
+  .Follow0 {
+    text-align: center;
+  }
+  .Linked {
+    margin-left: 270px;
+  }
+  .Subscribe0 {
+    text-align: center;
+  }
+  .Email {
+    margin-left: 100px;
+    width: 25 0px;
+  }
+  .Submit0 {
+    margin-left: 100px;
+  }
+  .Footer {
+    margin-left: 0px;
+    display: block;
+  }
+  .us {
+    margin-left: 100px;
+  }
+  .Ind {
+    margin-left: 100px;
+  }
+  .telefon {
+    margin-left: 150px;
+    margin-top: -48px;
+  }
+
+  .wil {
+    margin-left: 100px;
+  }
+  .Term0 {
+    margin-left: 100px;
+  }
+  .Innvative1 {
+    margin-left: 20px;
+  }
+  .Choose {
+    margin-left: 59px;
+  }
+  #Button {
+    margin-left: 100px;
+  }
+  #Product {
+    margin-left: 100px;
+  }
+  #Blueprint {
+    margin-left: 100px;
+  }
+  #The {
+    margin-left: 100px;
+  }
+  #With {
+    margin-left: 100px;
+  }
+}
